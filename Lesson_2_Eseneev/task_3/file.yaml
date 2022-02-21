@@ -1,0 +1,11 @@
+items:
+- computer
+- keyboard
+- mouse
+- printer
+items_price:
+  computer: 15000₽-70000₽
+  keyboard: 70₪-300₪
+  mouse: 100₻-200₻
+  printer: 50₤-600₤
+items_quantity: 4
