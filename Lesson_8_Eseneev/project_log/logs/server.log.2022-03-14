@@ -1,0 +1,24 @@
+2022-03-14 00:14:07,143   CRITICAL   server_logger.py   Критическая ошибка
+2022-03-14 00:14:07,144   ERROR      server_logger.py   Ошибка
+2022-03-14 00:14:07,144   INFO       server_logger.py   Информационное сообщение
+2022-03-14 00:14:07,145   DEBUG      server_logger.py   Отладочная информация
+2022-03-14 00:14:40,888   DEBUG      server.py          Была вызвана функция create_argparser c параметрами (), {}. Вызов из модуля __main__. Вызов из функции main.
+2022-03-14 00:14:40,889   INFO       server.py          Сервер запущен. ip_address: , port: 7777.
+2022-03-14 00:15:31,097   INFO       server.py          Соединение с ('127.0.0.1', 50288) установлено.
+2022-03-14 00:15:31,100   DEBUG      server.py          Была вызвана функция get_message c параметрами (<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50288)>,), {}. Вызов из модуля local.modules. Вызов из функции main.
+2022-03-14 00:15:31,101   DEBUG      server.py          Получено сообщение от клиента: {'action': 'presence', 'time': '14.03.2022 00:15', 'user': {'account_name': 'Guest'}}
+2022-03-14 00:15:31,101   DEBUG      server.py          Разбор сообщения от клиента: {'action': 'presence', 'time': '14.03.2022 00:15', 'user': {'account_name': 'Guest'}}
+2022-03-14 00:15:31,103   DEBUG      server.py          Была вызвана функция process_client_message c параметрами ({'action': 'presence', 'time': '14.03.2022 00:15', 'user': {'account_name': 'Guest'}},), {}. Вызов из модуля __main__. Вызов из функции main.
+2022-03-14 00:15:31,103   INFO       server.py          Cформирован ответ клиенту {'response': 200}
+2022-03-14 00:15:31,106   DEBUG      server.py          Была вызвана функция send_message c параметрами (<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50288)>, {'response': 200}), {}. Вызов из модуля local.modules. Вызов из функции main.
+2022-03-14 00:15:31,106   DEBUG      server.py          Соединение с ('127.0.0.1', 50288) закрывается.
+2022-03-14 00:23:08,326   DEBUG      server.py          Была вызвана функция create_argparser c параметрами (), {}. Вызов из модуля __main__. Вызов из функции main.
+2022-03-14 00:23:08,326   INFO       server.py          Сервер запущен. ip_address: , port: 7777.
+2022-03-14 00:23:16,212   INFO       server.py          Соединение с ('127.0.0.1', 50290) установлено.
+2022-03-14 00:23:16,217   DEBUG      server.py          Была вызвана функция get_message c параметрами (<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50290)>,), {}. Вызов из модуля local.modules. Вызов из функции main.
+2022-03-14 00:23:16,217   DEBUG      server.py          Получено сообщение от клиента: {'action': 'presence', 'time': '14.03.2022 00:23', 'user': {'account_name': 'Guest'}}
+2022-03-14 00:23:16,217   DEBUG      server.py          Разбор сообщения от клиента: {'action': 'presence', 'time': '14.03.2022 00:23', 'user': {'account_name': 'Guest'}}
+2022-03-14 00:23:16,219   DEBUG      server.py          Была вызвана функция process_client_message c параметрами ({'action': 'presence', 'time': '14.03.2022 00:23', 'user': {'account_name': 'Guest'}},), {}. Вызов из модуля __main__. Вызов из функции main.
+2022-03-14 00:23:16,219   INFO       server.py          Cформирован ответ клиенту {'response': 200}
+2022-03-14 00:23:16,221   DEBUG      server.py          Была вызвана функция send_message c параметрами (<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50290)>, {'response': 200}), {}. Вызов из модуля local.modules. Вызов из функции main.
+2022-03-14 00:23:16,221   DEBUG      server.py          Соединение с ('127.0.0.1', 50290) закрывается.
